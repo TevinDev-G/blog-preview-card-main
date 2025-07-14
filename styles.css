@@ -1,0 +1,110 @@
+body{
+    background: hsl(47, 88%, 63%);
+    font-family: Figtree;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 12px;
+    box-shadow: 5px 5px #000;
+    overflow: hidden;
+    width:320px;
+    padding-bottom: 16px;
+}
+
+.card :hover {
+  color: #ff0000;
+  font-size: 22px;
+}
+
+.card-image{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-content{
+    padding: 16px;
+
+}
+
+.tag{
+    display: inline-block;
+    background-color: hsl(47, 88%, 63%);
+    color: #000;
+    font-weight: bold;
+    padding:4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.date{
+    color:hsl(0, 0%, 42%);
+    font-size: 12px;
+    margin:8px 0;
+}
+
+.title{
+    font-size: 18px;
+    color:#000;
+    margin:8px 0;
+}
+
+.description{
+    color:hsl(0, 0%, 42%);
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.author{
+    display:flex;
+    align-items: center;
+    gap:8px;
+}
+
+.author img{
+    width:32px;
+    height:32px;
+    border-radius: 50%;
+}
+
+.author name{
+    font: size 14px;
+    font-weight: bold;
+}
+
+.attribution { 
+    margin-top: auto;
+    text-align: center;
+    padding: 16px;
+    font-size: 11px; 
+    text-align: bottom; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
